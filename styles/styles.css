@@ -183,6 +183,25 @@ img {
 	}
 }
 
+/* Contact */
+.contact__list {
+	padding-bottom: 1em;
+}
+.contact__item {
+	line-height: 1.8;
+	padding-bottom: 0.5em;
+}
+
+/* Profile picture */
+.profile__img {
+	width: 160px;
+	height: 160px;
+	object-fit: cover;
+	border-radius: 50%;
+	box-shadow: 2px 2px 5px 0 var(--box-shadow-color);
+	margin-bottom: 2em;
+}
+
 /* Project */
 .project {
 	box-shadow: 2px 2px 5px 0 var(--box-shadow-color);
